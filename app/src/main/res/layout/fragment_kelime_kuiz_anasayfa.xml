@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout7"
+    android:background="@color/logorenk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KelimeKuizAnasayfa">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/logo"
+        android:layout_marginTop="30dp"
+        android:id="@+id/logo"/>
+
+    <Button
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.7"
+        android:layout_height="100dp"
+        android:background="@drawable/kayitshape"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo"
+        android:layout_marginTop="30dp"
+        android:text="Rastgele Kelimeler"
+        android:textColor="@color/butonmavisi"
+        android:textSize="30dp"
+        android:id="@+id/butonbir"/>
+
+    <Button
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.7"
+        android:layout_height="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/butonbir"
+        android:id="@+id/butoniki"
+        android:textSize="30dp"
+        android:background="@drawable/kayitshape"
+        android:layout_marginTop="50dp"
+        android:text="Yanlış yapılan\nKelimeler"
+        android:textColor="@color/butonmavisi"/>
+    <Button
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.7"
+        android:layout_height="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/butoniki"
+        android:id="@+id/butonuc"
+        android:textSize="30dp"
+        android:background="@drawable/kayitshape"
+        android:layout_marginTop="50dp"
+        android:text="ANASAYFA"
+        android:textColor="@color/butonmavisi"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

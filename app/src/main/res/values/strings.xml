@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">OnlineEnglish</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="asikki">bir</string>
+    <string name="bsikki">iki</string>
+    <string name="csikki">uc</string>
+    <string name="dsikki">dort</string>
+    <string name="ormaninsirlaribaslikturkce">Ormanın Sırları</string>
+    <string name="ormaninsirlaribaslikingilizce">Secrets Of\nThe Forest</string>
+    <string name="ormaninsirlariturkce">Bir zamanlar, güzel bir köyde yaşayan Ali adında bir çocuk vardı. Ali\'nin ailesi köylerinde küçük bir çiftlik işletiyordu.Her sabah, Ali tavukları beslemeye ve inekleri otlatmaya yardım ederdi.Bir gün, Ali\'nin en iyi arkadaşı Ahmet, ormanda keşfe çıkmayı teklif etti. İkisi birlikte ormanda yürürken, renkli kuşları ve çiçekleri gördüler. Ahmet, Ali ye ormanın sırlarını anlattı.O günün akşamında, Ali annesine gün boyunca yaşadıklarını anlattı. Annesi, ona ormanın ne kadar güzel olduğunu anlaması için teşvik etti. Ali, bir sonraki gün tekrar ormana gitmeye karar verdi.Ormanda yürürken, Ali eski bir kulübe buldu. Kulübenin içinde birçok eski kitap vardı. Ali kitapları karıştırdıkça, farklı dünyalara yolculuk yapmış gibi hissetti. Kitapların dünyası, Ali\'nin hayal gücünü genişletti.Ali, ormanda geçirdiği günlerde doğayı daha iyi anladı. Ağaçlar, kuşlar ve nehir, ona gerçek bir hazine gibi görünmeye başladı. Bir gün, köy halkına ormandaki güzellikleri anlatan bir resim sergisi düzenlemeye karar verdi.Sergi günü geldiğinde, köy halkı Ali\'nin resimlerine hayran kaldı. Ali, onlara ormanın nasıl bir yer olduğunu hissettirmek için renkli resimlerini ve hikayelerini paylaştı. Köy halkı, doğanın güzelliklerini daha iyi takdir etmeye başladı.Ali\'nin sergisi, köydeki insanlara doğaya daha fazla değer vermelerini öğretti. Herkes, Ali\'nin öğrettikleri sayesinde doğayla daha uyumlu bir yaşam sürmeye başladı. Ali, küçük bir çocuk olarak, büyük bir değişim yaratmıştı.</string>
+    <string name="ormaninsirlariingilizce">Once upon a time, there was a boy named Ali who lived in a beautiful village. Ali\'s family operated a small farm in their village. Every morning, Ali helped feed the chickens and graze the cows.
+
+One day, Ali\'s best friend Ahmet suggested going on an exploration in the forest. As they walked through the forest together, they saw colorful birds and flowers. Ahmet shared the secrets of the forest with Ali.
+
+In the evening of that day, Ali told his mother about his adventures. His mother encouraged him to understand how beautiful the forest was. Ali decided to go back to the forest the next day.
+
+While walking in the forest, Ali found an old cabin. Inside the cabin, there were many old books. As Ali flipped through the pages, he felt like he was traveling to different worlds. The world of books expanded Ali\'s imagination.
+
+During the days spent in the forest, Ali gained a better understanding of nature. Trees, birds, and the river began to seem like a real treasure to him. One day, he decided to organize an art exhibition showcasing the beauty of the forest for the villagers.
+
+On the day of the exhibition, the villagers were amazed by Ali\'s paintings. Ali shared his colorful paintings and stories to make them feel the essence of the forest. The villagers started to appreciate the beauty of nature more.
+
+Ali\'s exhibition taught the villagers to value nature more. Everyone, thanks to Ali\'s teachings, began to live a more harmonious life with nature. Ali, as a little boy, had created a big change.</string>
+    <string name="BüyülüOrmanturkce">Bir zamanlar, büyülü bir ormanın kenarında yer alan küçük bir köyde, meraklı genç bir kız olan Lily yaşarmış. Lily, maceracı ruhu ve bilinmeyeni keşfetme sevgisi ile tanınıyordu. Bir sabah, her zaman merakını çeken mistik ormana doğru maceraya atılmaya karar verdi.
+
+Lily ormana adım attığında, etrafını saran sihirli bir enerji hissetti. Ağaçlar eski sırları fısıldıyor, yapraklar görünmez yaratıklarla hışırdıyordu. Heyecan, kalbini doldururken dar bir yolun içine doğru derin ormanın kalbine doğru ilerledi.
+
+Aniden, yumuşak bir ışık Lily\'nin dikkatini çekti. Gizli bir gladyada ateşböceklerinin nazik ışığı ile banyo yapmış bir alan keşfetti. Gladenin ortasında rüzgarla dans eden gümüş yapraklara sahip görkemli bir ağaç duruyordu. Büyülenmiş, Lily ağaca yaklaştı ve şaşkınlıkla, ağaç konuşmaya başladı.
+
+"Ben Koruyucu Ağaç\'ım," dedi eski ağaçtan gelen bilge ses. "Sen, sevgili Lily, saf bir kalbe ve cesur bir ruha sahipsin. Sana tek bir dilek hakkı tanıyacağım."
+
+Lily bir an düşündü ve ardından hayvanların dilini anlama yeteneği dileğini dile getirdi. Koruyucu Ağaç, dileğini kabul etti ve o andan itibaren Lily, büyülü ormanın yaratıkları ile iletişim kurabilirdi.
+
+Yeni kazandığı yetenek, Lily\'yi olağanüstü maceralara yönlendirdi. Bilge baykuşlarla konuştu, oyunbaz sincaplarla ve hatta Oliver adlı yaramaz bir tilkiyle arkadaş oldu. Birlikte, büyülü ormanın sırlarını keşfettiler ve yaratıklara her zaman ihtiyaç duyduklarında yardım ettiler.
+
+Bir gün, karanlık bir büyücü, içindeki sihiri yakalamaya çalışarak ormanın üzerine bir gölge düşürdü. Yeni bulduğu arkadaşlarını korumaya kararlı olan Lily, büyücüyü yüzleştirmek için tehlikeli bir yolculuğa çıktı. Yolda, cesaretini ve dayanıklılığını sınamak için zorluklarla karşılaştı.
+
+Hayvan arkadaşlarının ve Koruyucu Ağaç tarafından ona bahşedilen büyülü güçlerin yardımıyla Lily, büyücü ile sihirli bir çatışmaya girişti. Savaş şiddetliydi, ancak Lily\'nin saf kalbi, karanlık güçlerden daha güçlü çıktı.
+
+Sonunda, büyücü mağlup oldu ve büyülü orman kurtarıldı. Ormanın minnettar yaratıkları, gladeda sevinçli bir topluluğa katıldı. Lily, gerçek dostluğun, cesaretin ve saf bir kalbin içinde yatan sihrin gerçek gücünü anladı.</string>
+    <string name="Buyuluormaningilizce">Once upon a time, in a small village nestled at the edge of an enchanted forest, lived a curious young girl named Lily. Lily was known for her adventurous spirit and love for exploring the unknown. One bright morning, she decided to venture into the mystical forest that had always intrigued her.
+
+As Lily stepped into the forest, she felt a magical energy surrounding her. The trees whispered ancient secrets, and the leaves rustled with unseen creatures. Excitement filled her heart as she followed a narrow path deeper into the heart of the enchanted woods.
+
+Suddenly, a soft glow caught Lily\'s attention. She discovered a hidden glade bathed in the gentle light of fireflies. In the center of the glade stood a majestic tree with silver leaves that seemed to dance with the wind. Mesmerized, Lily approached the tree, and to her amazement, it began to speak.
+
+"I am the Guardian Tree," said the wise voice emanating from the ancient tree. "You, dear Lily, have a pure heart and a courageous spirit. I will grant you a single wish."
+
+Lily pondered for a moment and then wished for the ability to understand the language of animals. The Guardian Tree granted her wish, and from that moment, Lily could communicate with the creatures of the enchanted forest.
+
+Her newfound ability led Lily on extraordinary adventures. She spoke with wise old owls, playful squirrels, and even made friends with a mischievous fox named Oliver. Together, they uncovered the secrets of the enchanted forest and helped its inhabitants whenever they were in need.
+
+One day, a shadow fell over the forest as a dark sorcerer sought to capture the magic within. Determined to protect her newfound friends, Lily embarked on a perilous journey to confront the sorcerer. Along the way, she encountered challenges that tested her courage and resilience.
+
+With the help of her animal friends and the enchanted powers bestowed upon her by the Guardian Tree, Lily faced the sorcerer in a magical showdown. The battle was fierce, but Lily\'s pure heart proved stronger than the dark forces.
+
+In the end, the sorcerer was defeated, and the enchanted forest was saved. The grateful creatures of the forest celebrated with a joyous gathering in the glade. Lily realized the true power of friendship, courage, and the magic that lies within a pure heart.</string>
+    <string name="buyuluormanturkcebaslik">Büyülü Orman</string>
+    <string name="buyuluormaningilizcebaslik">The Enchanted\n\t\t\t\t\t\t\tForest</string>
+    <string name="zamaninhikayesiturkce">Everwood adlı sakin bir kasabada, zamanın sakin bir nehir gibi düzenli akıyor gibi göründüğü bir dönemde, Zaman Bekçisi olarak bilinen gizemli bir figür yaşarmış. Zaman Bekçisi, uzun, ak beyaz sakalı olan yaşlı bir adamdı ve evrenin ritmiyle tik-tak eden bir cep saati bulunuyordu.
+
+Bir gün, meraklı bir genç kız olan Emily, kasabanın kenarında Zaman Bekçisi\'nin gizli kulübesini keşfetti. Zamanı manipüle etme yeteneğine dair anlatılarından etkilenen Emily, onunla bir görüşme talep etmeye karar verdi.
+
+Emily, Zaman Bekçisi\'nin mütevazı ikametine girdiğinde, rafların, her biri zamanda donmuş eşsiz bir anı anlatan sayısız cep saati ile dolu olduğunu buldu. Zaman Bekçisi onu içeri davet etti ve her geçen anı kutsamanın öneminden bahsetti.
+
+Sohbet ettikçe, Emily en derin arzusunu paylaştı: ailesinin bir arada olduğu, kahkahaların evlerine yankılandığı çocukluğundan bir günü yeniden yaşamak. Onun samimiyetiyle dokunulmuş, Zaman Bekçisi ona özel bir hediye verme kararı aldı.
+
+Emily\'ye küçük, süslü bir cep saati uzattı ve gözlerini kapatıp sevgili gününü düşünmesini istedi. Nazik bir el sallamasıyla oda yumuşak, altın bir ışıkla doldu ve Emily\'yi sarhoş eden sihirli bir duygu hissetti.
+
+Gözlerini açtığında, Emily kendisini çocukluk evinin tanıdık ortamında buldu. Ailesi akşam yemeği masasının etrafında toplanmıştı ve sevgilerinin sıcaklığı havayı dolduruyordu. Sevinçle dolu olan Emily, zamanın kendisini geri sarılmış gibi deneyimledi.
+
+Gün geçtikçe, Emily ailesiyle güldü, oynadı ve değerli anları paylaştı. Ancak, gerçek hediye sadece geçmişi yeniden yaşamak değil, her anın geçici güzelliğini takdir etmekti.
+
+Gün sona erdiğinde, Emily kendisini tekrar Zaman Bekçisi\'nin kulübesinde, süslü cep saati elinde buldu. Minnet dolu bir kalple, Zaman Bekçisi\'ne paha biçilmez deneyim için teşekkür etti. O da gülümsedi ve geçmişin özel anılarına sahip olmanın yanı sıra, gerçek sihrin şu anda yaşamın güzelliğini kucaklamakta yattığını hatırlattı.
+
+Emily, zamanın geçişine yeni bir takdirle ayrıldı. Zaman Bekçisi\'nin bilgeliğini kalbinde taşıyarak, her anın övgüye değer bir hazine olduğunu ve gerçek sihrin şu anın güzelliğini kucaklamakta olduğunu anladı.</string>
+    <string name="zamaninhikayesiingilizce">In the quiet town of Everwood, where time seemed to flow steadily like a peaceful river, there lived a mysterious figure known as the Timekeeper. The Timekeeper was an elderly man with a long, flowing white beard and a pocket watch that ticked with the rhythm of the universe.
+
+One day, a curious young girl named Emily discovered the Timekeeper\'s hidden cottage at the edge of the town. Intrigued by the tales of his ability to manipulate time, she decided to seek an audience with him.
+
+Upon entering the Timekeeper\'s humble abode, Emily found shelves filled with countless pocket watches, each telling a unique story of a moment frozen in time. The Timekeeper welcomed her and spoke of the importance of cherishing every passing moment.
+
+As they conversed, Emily shared her deepest desire: to relive a day from her childhood when her family was together and laughter echoed through their home. Touched by her sincerity, the Timekeeper decided to grant her a special gift.
+
+He handed Emily a small, ornate pocket watch and instructed her to close her eyes and think of the cherished day. With a gentle wave of his hand, the room filled with a soft, golden light, and Emily felt a magical sensation enveloping her.
+
+When she opened her eyes, Emily found herself standing in the familiar surroundings of her childhood home. Her family was gathered around the dinner table, and the warmth of their love filled the air. Overwhelmed with joy, Emily experienced the day as if time had rewound itself.
+
+As the day unfolded, Emily laughed, played, and shared precious moments with her family. However, she soon realized the true gift wasn\'t merely reliving the past but appreciating the fleeting beauty of every moment.
+
+When the day came to an end, Emily found herself back in the Timekeeper\'s cottage, holding the ornate pocket watch. Gratitude filled her heart as she thanked the Timekeeper for the priceless experience. He smiled and reminded her that while the past held cherished memories, the present was a gift waiting to be unwrapped.
+
+Emily left the cottage with a newfound appreciation for the passage of time. She carried the wisdom of the Timekeeper in her heart, understanding that each moment was a treasure to be savored and that the true magic lay in embracing the beauty of the present.</string>
+    <string name="zamaninhikayesiturkcebaslik">Zamanın Hediyesi</string>
+    <string name="zamaninhikayesiingilizcebaslik">The Timekeeper\'s\n\t\t\t\t\t\t\t\t\t\t\t\tGift</string>
+
+    <string name="unutulmuskutuphane">Eldoria\'nın canlı şehrinin sakin bir köşesinde, sarmalanan sarmaşıklı duvarların ve eski taş döşemeli sokakların ardında, bir unutulmuş kütüphane bulunmaktaydı. Kütüphane, Arcane Archives adını taşıyordu ve zamanla bilgi ve sihir yuvası olmaktan uzaklaşıp unutulmuş ve bakımsız bir hale gelmişti.
+
+Bir gün genç ve meraklı bir kütüphaneci olan Amelia, Arcane Archives\'ın bir köşesinde unutulmuş, tozlu bir kitap keşfetti. Yıpranmış sayfalarını açtığında, içinde eski medeniyetlerin unutulmuş hikayelerini, sihirli büyülerini ve Eldoria\'nın geçmişine ait sırları barındırdığını fark etti.
+
+Bilgiye duyduğu susuzlukla harekete geçen Amelia, Arcane Archives\'ı eski ihtişamına kavuşturmak için bir yolculuğa çıktı. Her geçen gün, özenle örümcek ağlarını temizledi, rafları tamir etti ve unutulmuş kütüphaneye tekrar hayat verdi. Ne kadar derinlere inerse, o kadar uzun süredir gizlenmiş sırları ortaya çıkardı.
+
+Kütüphane büyülü atmosferini yeniden kazanmaya başladığında, tuhaf olaylar meydana geldi. Koridorlarda fısıltılar yankılandı ve uzun zamandır kaybolmuş sesler sanki kitapların sayfaları içinde yeniden can buluyormuş gibi hissedildi. Unutulmuş hikayelerin bir kez daha duyulmak için can attığı gibi görünüyordu.
+
+Kaderin bir gecesi, Amelia özellikle eski bir el yazmasına dalmışken, kütüphanenin içinde beklenmedik bir şekilde başka bir boyuta açılan bir portal göründü. İçinden çıkan hayaletimsi bir figür vardı - Hayalet Hikayeci, unutulmuş masalların koruyucusu. Hayalet Hikayeci, kütüphanenin sihrinin uyanmış olduğunu ve Amelia\'nın onun bekçisi olmaya seçildiğini açıkladı.
+
+Birlikte, Amelia ve Hayalet Hikayeci portalın ötesine doğru mistik bir yolculuğa çıktılar. Büyülü yaratıklarla karşılaştılar, eski ruhların çözmesi gereken bilmecelerle yüzleştiler ve uzun zamandır unutulmuş efsanelerin ipuçlarını çözdüler. Her macera ile birlikte, Arcane Archives büyülü bilginin canlı bir merkezi haline geldi.
+
+Yeniden canlanan kütüphanenin haberi Eldoria genelinde yayıldı, bilginin, sihirbazların ve unutulmuş öykülerin arayıcılarını çekti. Arcane Archives, geçmişle şimdinin bir araya geldiği, dünyalar arasındaki boşluğu kapatan bir yer haline geldi. Amelia, artık Koruyucu Kütüphaneci olarak biliniyor ve sihirli bilginin depolama alanını korumaya ve beslemeye devam ediyordu.
+
+Gölgede gizlenmiş bir zamanlar unutulmuş kütüphane, bilgelik ve merakın bir ışık kaynağına dönüştü, Eldoria halkına bazen en büyülü hikayelerin beklemediğimiz yerlerde bulunduğunu hatırlatır oldu.</string>
+    <string name="unutulmuskutuphaneingilizce">In a quiet corner of the bustling city of Eldoria, hidden behind ivy-covered walls and ancient cobblestone streets, there stood a forgotten library. The library, named Arcane Archives, was once a haven of knowledge and magic, but over the years, it fell into disrepair and obscurity.
+
+One day, a young and curious librarian named Amelia discovered a dusty, forgotten tome tucked away in a corner of Arcane Archives. As she opened its weathered pages, she realized that it held the forgotten stories of ancient civilizations, magical spells, and the secrets of Eldoria\'s past.
+
+Amelia, driven by a thirst for knowledge, embarked on a journey to restore the Arcane Archives to its former glory. With each passing day, she tirelessly cleaned the cobwebs, repaired the shelves, and brought life back to the forgotten library. The more she delved into the ancient texts, the more she uncovered the mysteries that had long been hidden away.
+
+As the library began to regain its magical aura, strange occurrences took place. Whispers echoed through the corridors, and long-lost voices seemed to come alive within the pages of the books. It was as if the forgotten stories were yearning to be heard once more.
+
+One fateful night, as Amelia was engrossed in a particularly ancient manuscript, a portal to another realm unexpectedly opened within the library. Out stepped a spectral figure – the Ghost Chronicler, a guardian of forgotten tales. The Ghost Chronicler explained that the library\'s magic had awakened, and Amelia was chosen to be its keeper.
+
+Together, Amelia and the Ghost Chronicler ventured into the mystical realm beyond the portal. They encountered enchanted creatures, faced riddles from ancient spirits, and unraveled the threads of long-forgotten legends. With each adventure, the Arcane Archives transformed into a vibrant hub of magical knowledge.
+
+Word of the revived library spread across Eldoria, attracting scholars, wizards, and seekers of forgotten lore. The Arcane Archives became a place where the past and present converged, bridging the gap between worlds. Amelia, now known as the Guardian Librarian, continued to protect and nurture the magical repository of knowledge.
+
+The forgotten library, once hidden in the shadows, became a beacon of wisdom and wonder, reminding the people of Eldoria that sometimes, the most enchanting stories are found in the places we least expect.</string>
+    <string name="unutulmuskutuphaneturkcebaslik">Unutulmuş\nKütüphane</string>
+    <string name="unutulmuskutuphaneingilizcebaslik">The Forgotten\n\t\t\t\t\t\tLibrary</string>
+    <string name="unutulmuskutuphaneturkce">Eldoria\'nın canlı şehrinin sakin bir köşesinde, sarmalanan sarmaşıklı duvarların ve eski taş döşemeli sokakların ardında, bir unutulmuş kütüphane bulunmaktaydı. Kütüphane, Arcane Archives adını taşıyordu ve zamanla bilgi ve sihir yuvası olmaktan uzaklaşıp unutulmuş ve bakımsız bir hale gelmişti.
+
+Bir gün genç ve meraklı bir kütüphaneci olan Amelia, Arcane Archives\'ın bir köşesinde unutulmuş, tozlu bir kitap keşfetti. Yıpranmış sayfalarını açtığında, içinde eski medeniyetlerin unutulmuş hikayelerini, sihirli büyülerini ve Eldoria\'nın geçmişine ait sırları barındırdığını fark etti.
+
+Bilgiye duyduğu susuzlukla harekete geçen Amelia, Arcane Archives\'ı eski ihtişamına kavuşturmak için bir yolculuğa çıktı. Her geçen gün, özenle örümcek ağlarını temizledi, rafları tamir etti ve unutulmuş kütüphaneye tekrar hayat verdi. Ne kadar derinlere inerse, o kadar uzun süredir gizlenmiş sırları ortaya çıkardı.
+
+Kütüphane büyülü atmosferini yeniden kazanmaya başladığında, tuhaf olaylar meydana geldi. Koridorlarda fısıltılar yankılandı ve uzun zamandır kaybolmuş sesler sanki kitapların sayfaları içinde yeniden can buluyormuş gibi hissedildi. Unutulmuş hikayelerin bir kez daha duyulmak için can attığı gibi görünüyordu.
+
+Kaderin bir gecesi, Amelia özellikle eski bir el yazmasına dalmışken, kütüphanenin içinde beklenmedik bir şekilde başka bir boyuta açılan bir portal göründü. İçinden çıkan hayaletimsi bir figür vardı - Hayalet Hikayeci, unutulmuş masalların koruyucusu. Hayalet Hikayeci, kütüphanenin sihrinin uyanmış olduğunu ve Amelia\'nın onun bekçisi olmaya seçildiğini açıkladı.
+
+Birlikte, Amelia ve Hayalet Hikayeci portalın ötesine doğru mistik bir yolculuğa çıktılar. Büyülü yaratıklarla karşılaştılar, eski ruhların çözmesi gereken bilmecelerle yüzleştiler ve uzun zamandır unutulmuş efsanelerin ipuçlarını çözdüler. Her macera ile birlikte, Arcane Archives büyülü bilginin canlı bir merkezi haline geldi.
+
+Yeniden canlanan kütüphanenin haberi Eldoria genelinde yayıldı, bilginin, sihirbazların ve unutulmuş öykülerin arayıcılarını çekti. Arcane Archives, geçmişle şimdinin bir araya geldiği, dünyalar arasındaki boşluğu kapatan bir yer haline geldi. Amelia, artık Koruyucu Kütüphaneci olarak biliniyor ve sihirli bilginin depolama alanını korumaya ve beslemeye devam ediyordu.
+
+Gölgede gizlenmiş bir zamanlar unutulmuş kütüphane, bilgelik ve merakın bir ışık kaynağına dönüştü, Eldoria halkına bazen en büyülü hikayelerin beklemediğimiz yerlerde bulunduğunu hatırlatır oldu.</string>
+    <string name="yoldakiruyaturkcebaslik">Yoldaki Rüya</string>
+    <string name="yoldakiruyaingilizcebaslik">The Dream\non Wheels</string>
+    <string name="yoldakiruyaturkce">Küçük bir kasabanın sakin caddelerinden birinde, yaşlı ama bakımlı bir garajda, eski bir arabaya hayat veren bir hikaye gizliydi. Bu kasabanın mekanik dâhisi olan Frank, emekli olmuştu, ancak o eski garajında hâlâ tutkusuyla yaşayan bir otomotiv mucidi olarak kalmıştı.
+
+Bir gün, garajında sersemleyen bir 1957 model vintage araba olan Rusty\'yi fark etti. Rusty, zamanla yıpranmıştı, ancak hâlâ güzellik dolu bir geçmişe ve özlemlerle dolu bir geleceğe sahipti. Frank, bu eski aracın içindeki potansiyeli gördü ve ona yeni bir hayat verme kararı aldı.
+
+Frank, günlerce ve gecelerce Rusty\'nin tamiri ve restore edilmesi için çaba sarf etti. Vücudundaki pas lekelerini temizledi, motorunu canlandırdı, iç mekanını yeniledi ve eski zamanların ihtişamını geri kazandırdı. Rusty, adeta bir zaman makinesine dönüşüyordu.
+
+Tamirat işi ilerledikçe, kasabanın gençleri de merak içinde Frank\'in garajına uğramaya başladı. Rusty\'nin dönüşümü, gençler arasında heyecan uyandırdı. Frank, onlara otomotiv bilgisi ve tutkusuyla ilham verdi. Rusty, sadece bir araba değil, aynı zamanda kasabanın ortak bir paydası haline gelmişti.
+
+Tamirat işi tamamlandığında, Rusty göz kamaştırıcı bir şekilde canlanmıştı. O eski şıklığına kavuşmuş, yolları fethetmeye hazır bir rüya gibi parlıyordu. Frank ve kasaba sakinleri, Rusty\'yi gördüklerinde geçmişin güzelliklerini ve geleceğe duyulan umutları hissettiler.
+
+Kasaba, Rusty\'nin şehir dışındaki yollarda hikayesini yazmasını izledi. Frank\'in garajı, gençlerin ve eski araba hayranlarının buluşma noktası haline geldi. Rusty, kırlarda rüzgarla dans ettiği, dağların zirvesine tırmandığı ve deniz kıyısındaki yolları keşfettiği bir macera yaşadı.
+
+Her geçen gün, Rusty\'nin etrafında toplanan insanlar, geçmişin nostaljik anılarını ve gelecekteki umutlarını paylaştılar. Rusty, sadece bir araba değil, kasabanın kalbindeki bir rüya haline gelmişti.
+
+Frank, Rusty\'nin başarı hikayesini izlerken gülümsedi. Yaşlı garaj, sadece bir araba tamir atölyesi değil, aynı zamanda bir topluluk merkezi olmuştu. Rusty\'nin yola çıkması, kasabanın insanlarını bir araya getirerek unutulmaz anılar ve yeni başlangıçlar yaratmıştı.
+
+Ve öylece, küçük kasaba sakinleri Rusty\'nin izlediği yolların ötesinde, hayatın sürekli bir tamirat ve restore süreci olduğunu öğrendi. Frank\'in garajı, sadece arabaların değil, aynı zamanda insanların geçmişten gelen değerlerini ve geleceğe duydukları umutları restore ettiği bir yer haline geldi. Rusty, sadece bir araba değil, aynı zamanda bir topluluğun kalbindeki rüyanın bir simgesi oldu.</string>
+    <string name="yoldakiruyaingilizce">In a quiet street of a small town, tucked away in a well-kept but aging garage, a story was unfolding, breathing life into an old car. Frank, the mechanical genius of the town now in retirement, remained a passionate automotive enthusiast, still living in his garage as a master of automotive wizardry.
+
+One day, he noticed a drowsy 1957 vintage car named Rusty resting in the corner. Rusty had weathered with time but still held a past filled with beauty and a future filled with aspirations. Frank saw the potential within this old vehicle and decided to breathe new life into it.
+
+For days and nights, Frank put effort into repairing and restoring Rusty. He cleaned away the rust spots on its body, revived its engine, refurbished the interior, and restored the grandeur of bygone days. Rusty was turning into a time machine.
+
+As the restoration progressed, the town\'s youngsters began to visit Frank\'s garage, curiosity sparking their interest. The transformation of Rusty ignited excitement among the youth. Frank inspired them with his automotive knowledge and passion. Rusty became not just a car but a common denominator for the town.
+
+When the repair work was completed, Rusty had come to life in a dazzling manner. It had regained its old elegance and sparkled like a dream ready to conquer the roads. Frank and the townspeople felt the echoes of the past\'s beauty and hopes for the future when they saw Rusty.
+
+The town witnessed Rusty writing its story on the roads outside the city limits. Frank\'s garage became a meeting point for the youth and old car enthusiasts. Rusty had not only become a car but also a shared dream in the heart of the town.
+
+As Rusty roamed the countryside, danced with the wind in the fields, climbed to the mountain peaks, and explored the coastal roads, it embarked on an adventure.
+
+Every day, people gathered around Rusty shared memories of the past and hopes for the future. Rusty became not just a car but a dream in the heart of the town.
+
+Frank smiled as he watched Rusty\'s success story unfold. The old garage was not just an auto repair workshop; it had become a community center. Rusty\'s journey brought people together, creating unforgettable memories and new beginnings.
+
+And so, the small-town residents learned that beyond the roads Rusty traveled, life is a constant process of repair and restoration. Frank\'s garage became a place not just for cars but also for restoring the values of the past and the hopes for the future. Rusty became a symbol of a dream in the heart of the community.</string>
+</resources>

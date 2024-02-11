@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/logorenk"
+    tools:context=".GirisSayfasi">
+
+   <ImageView
+       android:layout_width="200dp"
+       android:layout_height="200dp"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       android:src="@drawable/logo"
+       android:id="@+id/logo"
+       android:layout_marginTop="40dp"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="0dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_height="60dp"
+        android:id="@+id/mailadresgirdi"
+        app:boxStrokeWidth="3dp"
+        app:boxStrokeColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Mail Adresiniz"
+            android:textColor="@color/black"
+            android:textStyle="normal">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="0dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/sifregirdi"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mailadresgirdi"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Şifreniz"
+            android:textColor="@color/black"
+            android:textStyle="normal">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        app:layout_constraintWidth_percent="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/girisbutontasarim"
+        app:layout_constraintTop_toBottomOf="@id/sifregirdi"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/white"
+        android:text="Giriş yap"
+        android:id="@+id/giris"
+        android:textSize="20dp"/>
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        app:layout_constraintWidth_percent="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/kayitshape"
+        app:layout_constraintTop_toBottomOf="@id/giris"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/butonmavisi"
+        android:text="Yeni Hesap Oluştur"
+        android:id="@+id/kayit"
+        android:textSize="15dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

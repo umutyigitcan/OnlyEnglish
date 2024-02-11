@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/girisSayfasi">
+
+    <fragment
+        android:id="@+id/girisSayfasi"
+        android:name="com.example.onlineenglish.GirisSayfasi"
+        android:label="fragment_giris_sayfasi"
+        tools:layout="@layout/fragment_giris_sayfasi" >
+        <action
+            android:id="@+id/action_girisSayfasi_to_anamenu"
+            app:destination="@id/anamenu" />
+        <action
+            android:id="@+id/action_girisSayfasi_to_kayitSayfasi"
+            app:destination="@id/kayitSayfasi" />
+    </fragment>
+    <fragment
+        android:id="@+id/anamenu"
+        android:name="com.example.onlineenglish.Anamenu"
+        android:label="fragment_anamenu"
+        tools:layout="@layout/fragment_anamenu" >
+        <argument
+            android:name="kullaniciadi"
+            app:argType="string"
+            android:defaultValue="Null" />
+        <action
+            android:id="@+id/action_anamenu_to_hikayeler"
+            app:destination="@id/hikayeler" />
+        <action
+            android:id="@+id/action_anamenu_to_kelimeKuizAnasayfa"
+            app:destination="@id/kelimeKuizAnasayfa" />
+    </fragment>
+    <fragment
+        android:id="@+id/kayitSayfasi"
+        android:name="com.example.onlineenglish.KayitSayfasi"
+        android:label="fragment_kayit_sayfasi"
+        tools:layout="@layout/fragment_kayit_sayfasi" />
+    <fragment
+        android:id="@+id/kelimeKuiz"
+        android:name="com.example.onlineenglish.KelimeKuiz"
+        android:label="fragment_kelime_kuiz"
+        tools:layout="@layout/fragment_kelime_kuiz" />
+    <fragment
+        android:id="@+id/hikayeler"
+        android:name="com.example.onlineenglish.Hikayeler"
+        android:label="fragment_hikayeler"
+        tools:layout="@layout/fragment_hikayeler" >
+        <action
+            android:id="@+id/action_hikayeler_to_ormaninSirlariHikaye"
+            app:destination="@id/ormaninSirlariHikaye" />
+        <action
+            android:id="@+id/action_hikayeler_to_buyuluOrmanHikaye"
+            app:destination="@id/buyuluOrmanHikaye" />
+        <action
+            android:id="@+id/action_hikayeler_to_zamaninhikayesifragment"
+            app:destination="@id/zamaninhikayesifragment" />
+        <action
+            android:id="@+id/action_hikayeler_to_unutulmusKutuphane"
+            app:destination="@id/unutulmusKutuphane" />
+        <action
+            android:id="@+id/action_hikayeler_to_yoldakiRuya"
+            app:destination="@id/yoldakiRuya" />
+        <action
+            android:id="@+id/action_hikayeler_to_anamenu"
+            app:destination="@id/anamenu" />
+    </fragment>
+    <fragment
+        android:id="@+id/ormaninSirlariHikaye"
+        android:name="com.example.onlineenglish.OrmaninSirlariHikaye"
+        android:label="fragment_ormanin_sirlari_hikaye"
+        tools:layout="@layout/fragment_ormanin_sirlari_hikaye" />
+    <fragment
+        android:id="@+id/buyuluOrmanHikaye"
+        android:name="com.example.onlineenglish.BuyuluOrmanHikaye"
+        android:label="BuyuluOrmanHikaye"
+        />
+    <fragment
+        android:id="@+id/zamaninhikayesifragment"
+        android:name="com.example.onlineenglish.Zamaninhikayesifragment"
+        android:label="fragment_zamaninhikayesifragment"
+        tools:layout="@layout/fragment_zamaninhikayesifragment" />
+    <fragment
+        android:id="@+id/unutulmusKutuphane"
+        android:name="com.example.onlineenglish.UnutulmusKutuphane"
+        android:label="UnutulmusKutuphane" />
+    <fragment
+        android:id="@+id/yoldakiRuya"
+        android:name="com.example.onlineenglish.YoldakiRuya"
+        android:label="fragment_yoldaki_ruya"
+        tools:layout="@layout/fragment_yoldaki_ruya" />
+    <fragment
+        android:id="@+id/kelimeKuizAnasayfa"
+        android:name="com.example.onlineenglish.KelimeKuizAnasayfa"
+        android:label="fragment_kelime_kuiz_anasayfa"
+        tools:layout="@layout/fragment_kelime_kuiz_anasayfa" >
+        <action
+            android:id="@+id/action_kelimeKuizAnasayfa_to_kelimeKuiz"
+            app:destination="@id/kelimeKuiz" />
+        <action
+            android:id="@+id/action_kelimeKuizAnasayfa_to_yanlisYapilanKelimeler"
+            app:destination="@id/yanlisYapilanKelimeler" />
+        <action
+            android:id="@+id/action_kelimeKuizAnasayfa_to_anamenu"
+            app:destination="@id/anamenu" />
+    </fragment>
+    <fragment
+        android:id="@+id/yanlisYapilanKelimeler"
+        android:name="com.example.onlineenglish.YanlisYapilanKelimeler"
+        android:label="fragment_yanlis_yapilan_kelimeler"
+        tools:layout="@layout/fragment_yanlis_yapilan_kelimeler" />
+</navigation>
