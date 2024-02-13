@@ -1,0 +1,81 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout13"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.onlyenglish.ResimliTestBes">
+
+    <ImageView
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.7"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="30dp"
+        android:id="@+id/resim"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.75"
+        app:layout_constraintHeight_percent="0.1"
+        android:textSize="20dp"
+        android:textColor="#FF9800"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/testbuton"
+        app:layout_constraintTop_toBottomOf="@id/resim"
+        android:layout_marginTop="30dp"
+        android:id="@+id/asikki"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.75"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="20dp"
+        android:textColor="#FF9800"
+        android:textStyle="bold"
+        android:background="@drawable/testbuton"
+        app:layout_constraintTop_toBottomOf="@id/asikki"
+        android:layout_marginTop="30dp"
+        android:id="@+id/bsikki"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.75"
+        android:background="@drawable/testbuton"
+        android:textSize="20dp"
+        android:textColor="#FF9800"
+        android:textStyle="bold"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bsikki"
+        android:layout_marginTop="30dp"
+        android:id="@+id/csikki"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.75"
+        app:layout_constraintHeight_percent="0.1"
+        android:textSize="20dp"
+        android:textColor="#FF9800"
+        android:textStyle="bold"
+        android:background="@drawable/testbuton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/csikki"
+        android:layout_marginTop="30dp"
+        android:id="@+id/dsikki"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
