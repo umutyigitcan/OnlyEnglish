@@ -32,6 +32,9 @@
         <action
             android:id="@+id/action_anamenu_to_kelimeKuizAnasayfa"
             app:destination="@id/kelimeKuizAnasayfa" />
+        <action
+            android:id="@+id/action_anamenu_to_resimliTestMenu"
+            app:destination="@id/resimliTestMenu" />
     </fragment>
     <fragment
         android:id="@+id/kayitSayfasi"
@@ -111,4 +114,86 @@
         android:name="com.example.onlineenglish.YanlisYapilanKelimeler"
         android:label="fragment_yanlis_yapilan_kelimeler"
         tools:layout="@layout/fragment_yanlis_yapilan_kelimeler" />
+    <fragment
+        android:id="@+id/resimliTestMenu"
+        android:name="com.example.onlyenglish.ResimliTestMenu"
+        android:label="fragment_resimli_test_menu"
+        tools:layout="@layout/fragment_resimli_test_menu" >
+        <action
+            android:id="@+id/action_resimliTestMenu_to_resimliTestBir"
+            app:destination="@id/resimliTestBir" />
+        <action
+            android:id="@+id/action_resimliTestMenu_to_resimliTestIki"
+            app:destination="@id/resimliTestIki" />
+        <action
+            android:id="@+id/action_resimliTestMenu_to_resimliTestUc"
+            app:destination="@id/resimliTestUc" />
+        <action
+            android:id="@+id/action_resimliTestMenu_to_resimliTestDort"
+            app:destination="@id/resimliTestDort" />
+        <action
+            android:id="@+id/action_resimliTestMenu_to_resimliTestBes"
+            app:destination="@id/resimliTestBes" />
+        <action
+            android:id="@+id/action_resimliTestMenu_to_resimliTestAlti"
+            app:destination="@id/resimliTestAlti" />
+        <action
+            android:id="@+id/action_resimliTestMenu_to_resimliTestYedi"
+            app:destination="@id/resimliTestYedi" />
+        <action
+            android:id="@+id/action_resimliTestMenu_to_resimliTestSekiz"
+            app:destination="@id/resimliTestSekiz" />
+        <action
+            android:id="@+id/action_resimliTestMenu_to_resimliTestDokuz"
+            app:destination="@id/resimliTestDokuz" />
+    </fragment>
+    <fragment
+        android:id="@+id/resimliTestBir"
+        android:name="com.example.onlyenglish.ResimliTestBir"
+        android:label="fragment_resimli_test_bir"
+        tools:layout="@layout/fragment_resimli_test_bir" >
+        <action
+            android:id="@+id/action_resimliTestBir_to_resimliTestMenu"
+            app:destination="@id/resimliTestMenu" />
+    </fragment>
+    <fragment
+        android:id="@+id/resimliTestIki"
+        android:name="com.example.onlyenglish.ResimliTestIki"
+        android:label="fragment_resimli_test_iki"
+        tools:layout="@layout/fragment_resimli_test_iki" />
+    <fragment
+        android:id="@+id/resimliTestUc"
+        android:name="com.example.onlyenglish.ResimliTestUc"
+        android:label="fragment_resimli_test_uc"
+        tools:layout="@layout/fragment_resimli_test_uc" />
+    <fragment
+        android:id="@+id/resimliTestDort"
+        android:name="com.example.onlyenglish.ResimliTestDort"
+        android:label="fragment_resimli_test_dort"
+        tools:layout="@layout/fragment_resimli_test_dort" />
+    <fragment
+        android:id="@+id/resimliTestBes"
+        android:name="com.example.onlyenglish.ResimliTestBes"
+        android:label="fragment_resimli_test_bes"
+        tools:layout="@layout/fragment_resimli_test_bes" />
+    <fragment
+        android:id="@+id/resimliTestAlti"
+        android:name="com.example.onlyenglish.ResimliTestAlti"
+        android:label="fragment_resimli_test_alti"
+        tools:layout="@layout/fragment_resimli_test_alti" />
+    <fragment
+        android:id="@+id/resimliTestYedi"
+        android:name="com.example.onlyenglish.ResimliTestYedi"
+        android:label="fragment_resimli_test_yedi"
+        tools:layout="@layout/fragment_resimli_test_yedi" />
+    <fragment
+        android:id="@+id/resimliTestSekiz"
+        android:name="com.example.onlyenglish.ResimliTestSekiz"
+        android:label="fragment_resimli_test_sekiz"
+        tools:layout="@layout/fragment_resimli_test_sekiz" />
+    <fragment
+        android:id="@+id/resimliTestDokuz"
+        android:name="com.example.onlyenglish.ResimliTestDokuz"
+        android:label="fragment_resimli_test_dokuz"
+        tools:layout="@layout/fragment_resimli_test_dokuz" />
 </navigation>

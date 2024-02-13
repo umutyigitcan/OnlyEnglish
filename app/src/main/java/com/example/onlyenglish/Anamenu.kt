@@ -25,6 +25,9 @@ class Anamenu : Fragment() {
         tasarim.butonbir.setOnClickListener {
             Navigation.findNavController(it).navigate(R.id.action_anamenu_to_kelimeKuizAnasayfa)
         }
+        tasarim.butoniki.setOnClickListener {
+            Navigation.findNavController(it).navigate(R.id.action_anamenu_to_resimliTestMenu)
+        }
 
 
 
