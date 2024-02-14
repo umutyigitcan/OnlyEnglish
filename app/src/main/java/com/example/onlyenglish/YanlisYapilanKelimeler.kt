@@ -35,7 +35,7 @@ class YanlisYapilanKelimeler : Fragment() {
         tasarim.kelimegetir.text=kelimekey.toString()
 
         tasarim.kontrol.setOnClickListener {
-            if(tasarim.girdi.text.toString()==kelimevalue.toString()){
+            if(tasarim.girdi.text.toString().toLowerCase().trim()==kelimevalue.toString().toLowerCase().trim()){
                 Toast.makeText(context,"Doğru cevap :)",Toast.LENGTH_SHORT).show()
                 dogru++
                 tasarim.dogru.text="Doğru Sayısı: $dogru"

@@ -1,5 +1,6 @@
 package com.example.onlyenglish
 
+import android.content.Context
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -16,22 +17,25 @@ class ResimliTestBir : Fragment() {
     private lateinit var sorulistesi:ArrayList<Int>
     private lateinit var tasarim:FragmentResimliTestBirBinding
     private lateinit var cevaplistesi:ArrayList<String>
+    private lateinit var view: View
+    private lateinit var mContext: Context
     var resimindex=0
     var dogrusik=0
     var dogrucevap=""
     var yanliscevap=""
     var yanliscevap2=""
     var yanliscevap3=""
-    var bitis=100
+    var bitis=2
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         tasarim= FragmentResimliTestBirBinding.inflate(inflater,container,false)
-
+        mContext=requireContext()
         cevaplistesi=ArrayList()
         cevapListesiYukleme()
         sorulistesi=ArrayList<Int>()
         soruListesiYukleme()
 
             soruYukle()
+        var vt=VeritabaniYardimcisiLevel(mContext)
 
             tasarim.asikki.setOnClickListener {
                 if (tasarim.asikki.text == dogrucevap) {
@@ -39,6 +43,7 @@ class ResimliTestBir : Fragment() {
                     soruYukle()
                     bitis--
                     if(bitis==0){
+                        Leveldao().levelArttir(vt)
                         Toast.makeText(context,"Tebrikler 2.levele geçtiniz!",Toast.LENGTH_SHORT).show()
                         Navigation.findNavController(it).navigate(R.id.action_resimliTestBir_to_resimliTestMenu)
                     }
@@ -57,6 +62,7 @@ class ResimliTestBir : Fragment() {
                     soruYukle()
                     bitis--
                     if(bitis==0){
+                        Leveldao().levelArttir(vt)
                         Toast.makeText(context,"Tebrikler 2.levele geçtiniz!",Toast.LENGTH_SHORT).show()
                         Navigation.findNavController(it).navigate(R.id.action_resimliTestBir_to_resimliTestMenu)
                     }
@@ -74,6 +80,7 @@ class ResimliTestBir : Fragment() {
                     soruYukle()
                     bitis--
                     if(bitis==0){
+                        Leveldao().levelArttir(vt)
                         Toast.makeText(context,"Tebrikler 2.levele geçtiniz!",Toast.LENGTH_SHORT).show()
                         Navigation.findNavController(it).navigate(R.id.action_resimliTestBir_to_resimliTestMenu)
                     }
@@ -92,6 +99,7 @@ class ResimliTestBir : Fragment() {
                     soruYukle()
                     bitis--
                     if(bitis==0){
+                        Leveldao().levelArttir(vt)
                         Toast.makeText(context,"Tebrikler 2.levele geçtiniz!",Toast.LENGTH_SHORT).show()
                         Navigation.findNavController(it).navigate(R.id.action_resimliTestBir_to_resimliTestMenu)
                     }
@@ -102,6 +110,9 @@ class ResimliTestBir : Fragment() {
                 }
 
             }
+
+
+
 
 
         return tasarim.root
@@ -173,6 +184,8 @@ class ResimliTestBir : Fragment() {
                 tasarim.bsikki.text=yanliscevap2
                 tasarim.csikki.text=yanliscevap3}
         }
+
+
 
     }
 

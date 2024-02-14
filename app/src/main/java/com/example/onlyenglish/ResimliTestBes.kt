@@ -1,5 +1,6 @@
 package com.example.onlyenglish
 
+import android.content.Context
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -17,16 +18,18 @@ class ResimliTestBes : Fragment() {
     private lateinit var sorulistesi:ArrayList<Int>
     private lateinit var tasarim:FragmentResimliTestBesBinding
     private lateinit var cevaplistesi:ArrayList<String>
+    private lateinit var mContext:Context
     var resimindex=0
     var dogrusik=0
     var dogrucevap=""
     var yanliscevap=""
     var yanliscevap2=""
     var yanliscevap3=""
-    var bitis=100
+    var bitis=2
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         tasarim= FragmentResimliTestBesBinding.inflate(inflater,container,false)
-
+        mContext=requireContext()
+        var vt=VeritabaniYardimcisiLevel(mContext)
         cevaplistesi=ArrayList()
         cevapListesiYukleme()
         sorulistesi=ArrayList<Int>()
@@ -40,13 +43,14 @@ class ResimliTestBes : Fragment() {
                 soruYukle()
                 bitis--
                 if(bitis==0){
-                    Toast.makeText(context,"Tebrikler 2.levele geçtiniz!",Toast.LENGTH_SHORT).show()
-                    Navigation.findNavController(it).navigate(R.id.action_resimliTestBir_to_resimliTestMenu)
+                    Leveldao().levelArttir(vt)
+                    Toast.makeText(context,"Tebrikler 6.levele geçtiniz!",Toast.LENGTH_SHORT).show()
+                    Navigation.findNavController(it).navigate(R.id.action_resimliTestBes_to_resimliTestMenu)
                 }
             }
             else{
                 Toast.makeText(context,"Yanlış cevap verdiğiniz için\nanasayfaya döndürülüyorsunuz!",Toast.LENGTH_SHORT).show()
-                Navigation.findNavController(it).navigate(R.id.action_resimliTestBir_to_resimliTestMenu)
+                Navigation.findNavController(it).navigate(R.id.action_resimliTestBes_to_resimliTestMenu)
             }
 
         }
@@ -58,13 +62,14 @@ class ResimliTestBes : Fragment() {
                 soruYukle()
                 bitis--
                 if(bitis==0){
-                    Toast.makeText(context,"Tebrikler 2.levele geçtiniz!",Toast.LENGTH_SHORT).show()
-                    Navigation.findNavController(it).navigate(R.id.action_resimliTestBir_to_resimliTestMenu)
+                    Leveldao().levelArttir(vt)
+                    Toast.makeText(context,"Tebrikler 6.levele geçtiniz!",Toast.LENGTH_SHORT).show()
+                    Navigation.findNavController(it).navigate(R.id.action_resimliTestBes_to_resimliTestMenu)
                 }
             }
             else{
                 Toast.makeText(context,"Yanlış cevap verdiğiniz için\nanasayfaya döndürülüyorsunuz!",Toast.LENGTH_SHORT).show()
-                Navigation.findNavController(it).navigate(R.id.action_resimliTestBir_to_resimliTestMenu)
+                Navigation.findNavController(it).navigate(R.id.action_resimliTestBes_to_resimliTestMenu)
             }
 
         }
@@ -75,13 +80,14 @@ class ResimliTestBes : Fragment() {
                 soruYukle()
                 bitis--
                 if(bitis==0){
-                    Toast.makeText(context,"Tebrikler 2.levele geçtiniz!",Toast.LENGTH_SHORT).show()
-                    Navigation.findNavController(it).navigate(R.id.action_resimliTestBir_to_resimliTestMenu)
+                    Leveldao().levelArttir(vt)
+                    Toast.makeText(context,"Tebrikler 6.levele geçtiniz!",Toast.LENGTH_SHORT).show()
+                    Navigation.findNavController(it).navigate(R.id.action_resimliTestBes_to_resimliTestMenu)
                 }
             }
             else{
                 Toast.makeText(context,"Yanlış cevap verdiğiniz için\nanasayfaya döndürülüyorsunuz!",Toast.LENGTH_SHORT).show()
-                Navigation.findNavController(it).navigate(R.id.action_resimliTestBir_to_resimliTestMenu)
+                Navigation.findNavController(it).navigate(R.id.action_resimliTestBes_to_resimliTestMenu)
             }
 
         }
@@ -93,13 +99,14 @@ class ResimliTestBes : Fragment() {
                 soruYukle()
                 bitis--
                 if(bitis==0){
-                    Toast.makeText(context,"Tebrikler 2.levele geçtiniz!",Toast.LENGTH_SHORT).show()
-                    Navigation.findNavController(it).navigate(R.id.action_resimliTestBir_to_resimliTestMenu)
+                    Leveldao().levelArttir(vt)
+                    Toast.makeText(context,"Tebrikler 6.levele geçtiniz!",Toast.LENGTH_SHORT).show()
+                    Navigation.findNavController(it).navigate(R.id.action_resimliTestBes_to_resimliTestMenu)
                 }
             }
             else{
                 Toast.makeText(context,"Yanlış cevap verdiğiniz için\nanasayfaya döndürülüyorsunuz!",Toast.LENGTH_SHORT).show()
-                Navigation.findNavController(it).navigate(R.id.action_resimliTestBir_to_resimliTestMenu)
+                Navigation.findNavController(it).navigate(R.id.action_resimliTestBes_to_resimliTestMenu)
             }
 
         }

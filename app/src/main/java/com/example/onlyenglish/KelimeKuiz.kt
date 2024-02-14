@@ -30,7 +30,7 @@ class KelimeKuiz : Fragment() {
 
 
         tasarim.kontrol.setOnClickListener {
-            if(tasarim.girdi.text.toString().lowercase()==kelimevalue.toString().lowercase()){
+            if(tasarim.girdi.text.toString().toLowerCase().trim()==kelimevalue.toString().toLowerCase().trim()){
                 dogru++
                 tasarim.dogru.text="Doğru Sayısı: ${dogru.toString()}"
                 indexno=Random.nextInt(0,kelimelerkey.size)

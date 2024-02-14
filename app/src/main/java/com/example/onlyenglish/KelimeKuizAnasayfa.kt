@@ -21,7 +21,9 @@ class KelimeKuizAnasayfa : Fragment() {
             Navigation.findNavController(it).navigate(R.id.action_kelimeKuizAnasayfa_to_yanlisYapilanKelimeler)
         }
 
-        tasarim.butonuc.setOnClickListener {
+
+
+        tasarim.butondort.setOnClickListener {
             Navigation.findNavController(it).navigate(R.id.action_kelimeKuizAnasayfa_to_anamenu)
         }
 
