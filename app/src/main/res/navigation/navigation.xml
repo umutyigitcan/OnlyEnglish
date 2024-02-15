@@ -108,6 +108,9 @@
         <action
             android:id="@+id/action_kelimeKuizAnasayfa_to_anamenu"
             app:destination="@id/anamenu" />
+        <action
+            android:id="@+id/action_kelimeKuizAnasayfa_to_yanlisYapilanKelimelerSozluk"
+            app:destination="@id/yanlisYapilanKelimelerSozluk" />
     </fragment>
     <fragment
         android:id="@+id/yanlisYapilanKelimeler"
@@ -228,4 +231,9 @@
             android:id="@+id/action_resimliTestDokuz_to_resimliTestMenu"
             app:destination="@id/resimliTestMenu" />
     </fragment>
+    <fragment
+        android:id="@+id/yanlisYapilanKelimelerSozluk"
+        android:name="com.example.onlyenglish.YanlisYapilanKelimelerSozluk"
+        android:label="fragment_yanlis_yapilan_kelimeler_sozluk"
+        tools:layout="@layout/fragment_yanlis_yapilan_kelimeler_sozluk" />
 </navigation>
