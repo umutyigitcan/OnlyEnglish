@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "889152051520",
+    "project_id": "onlyenglish-c6cee",
+    "storage_bucket": "onlyenglish-c6cee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889152051520:android:5f6e8da0dca87a311942a5",
+        "android_client_info": {
+          "package_name": "com.example.onlineenglish"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0xSj2MiC-p-_wK2572WNxxGhpQg_zDFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

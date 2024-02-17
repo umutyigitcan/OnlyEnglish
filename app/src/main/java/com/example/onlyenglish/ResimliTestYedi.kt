@@ -9,7 +9,6 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.navigation.Navigation
 import com.example.onlineenglish.R
-import com.example.onlineenglish.databinding.FragmentResimliTestBirBinding
 import com.example.onlineenglish.databinding.FragmentResimliTestYediBinding
 import kotlin.random.Random
 
@@ -117,7 +116,7 @@ class ResimliTestYedi : Fragment() {
     }
 
     fun soruListesiYukleme(){
-        sorulistesi.add(R.drawable.kirmizi)
+        sorulistesi.add(R.drawable.kirmizii)
         sorulistesi.add(R.drawable.mavi)
         sorulistesi.add(R.drawable.yesil)
         sorulistesi.add(R.drawable.sari)

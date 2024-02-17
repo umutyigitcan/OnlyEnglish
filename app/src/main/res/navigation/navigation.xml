@@ -35,12 +35,19 @@
         <action
             android:id="@+id/action_anamenu_to_resimliTestMenu"
             app:destination="@id/resimliTestMenu" />
+        <action
+            android:id="@+id/action_anamenu_to_ingilizceSohbet"
+            app:destination="@id/ingilizceSohbet" />
     </fragment>
     <fragment
         android:id="@+id/kayitSayfasi"
         android:name="com.example.onlineenglish.KayitSayfasi"
         android:label="fragment_kayit_sayfasi"
-        tools:layout="@layout/fragment_kayit_sayfasi" />
+        tools:layout="@layout/fragment_kayit_sayfasi" >
+        <action
+            android:id="@+id/action_kayitSayfasi_to_girisSayfasi"
+            app:destination="@id/girisSayfasi" />
+    </fragment>
     <fragment
         android:id="@+id/kelimeKuiz"
         android:name="com.example.onlineenglish.KelimeKuiz"
@@ -236,4 +243,9 @@
         android:name="com.example.onlyenglish.YanlisYapilanKelimelerSozluk"
         android:label="fragment_yanlis_yapilan_kelimeler_sozluk"
         tools:layout="@layout/fragment_yanlis_yapilan_kelimeler_sozluk" />
+    <fragment
+        android:id="@+id/ingilizceSohbet"
+        android:name="com.example.onlyenglish.IngilizceSohbet"
+        android:label="fragment_ingilizce_sohbet"
+        tools:layout="@layout/fragment_ingilizce_sohbet" />
 </navigation>

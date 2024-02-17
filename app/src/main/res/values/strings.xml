@@ -4,6 +4,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="asikki">bir</string>
     <string name="bsikki">iki</string>
+    <string name="kayituyari">Parolanızın ve kullanıcı adınızın uzunluğu en az 8 karakter olmalıdır!</string>
+    <string name="girisuyari">Kullanıcı adınız veya parolanız hatalı!</string>
     <string name="csikki">uc</string>
     <string name="dsikki">dort</string>
     <string name="ormaninsirlaribaslikturkce">Ormanın Sırları</string>
