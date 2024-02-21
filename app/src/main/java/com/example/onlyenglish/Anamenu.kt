@@ -32,6 +32,10 @@ class Anamenu : Fragment() {
             Navigation.findNavController(it).navigate(R.id.action_anamenu_to_resimliTestMenu)
         }
 
+        tasarim.butondRt.setOnClickListener {
+            Navigation.findNavController(it).navigate(R.id.action_anamenu_to_kelimeArenasiAnasayfa)
+        }
+
         tasarim.sohbet.setOnClickListener {
             Navigation.findNavController(it).navigate(R.id.action_anamenu_to_ingilizceSohbet)
         }

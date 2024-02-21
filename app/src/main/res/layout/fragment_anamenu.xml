@@ -74,6 +74,7 @@
         android:layout_marginTop="20dp"
         android:text="Online Kelime Arenası"
         android:background="@drawable/butontasarim"
+        android:visibility="invisible"
         android:textColor="@color/white"
         android:id="@+id/butondört"/>
 
@@ -84,8 +85,8 @@
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/butondört"
-        android:text="İngilizce Sohbet Et"
+        app:layout_constraintTop_toBottomOf="@id/butonuc"
+        android:text="Anonim İngilizce Sohbet Et"
         android:background="@drawable/butontasarim"
         android:textStyle="bold"
         android:textSize="13dp"

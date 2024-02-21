@@ -19,55 +19,71 @@ import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import com.google.firebase.database.core.Context
 
-class GirisSayfasi : Fragment() {
-    private lateinit var tasarim:FragmentGirisSayfasiBinding
-    private lateinit var handler:Handler
-    private lateinit var runnable: Runnable
-    var sayi=0
+// ... (Diğer import ifadeleri)
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        tasarim= FragmentGirisSayfasiBinding.inflate(inflater,container,false)
-        handler= Handler(Looper.getMainLooper())
-        runnable=object :Runnable{
+class GirisSayfasi : Fragment() {
+    private lateinit var tasarim: FragmentGirisSayfasiBinding
+    private lateinit var handler: Handler
+    private lateinit var runnable: Runnable
+    var sayi = 0
+
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        tasarim = FragmentGirisSayfasiBinding.inflate(inflater, container, false)
+        handler = Handler(Looper.getMainLooper())
+        runnable = object : Runnable {
             override fun run() {
                 sayi++
-                handler.postDelayed(this,1000)
+                handler.postDelayed(this, 1000)
             }
         }
 
-        var database=FirebaseDatabase.getInstance()
-        var refKisiler=database.getReference("Kullanicilar")
+        var database = FirebaseDatabase.getInstance()
+        var refKisiler = database.getReference("Kullanicilar")
 
         tasarim.giris.setOnClickListener {
             handler.post(runnable)
 
-            var g1=tasarim.giriskullanici.text.toString().trim()
-            var g2=tasarim.girissifre.text.toString().trim()
-            if(g1==""&&g2==""){
-                Toast.makeText(requireContext(),"Lütfen hesap oluşturunuz!",Toast.LENGTH_SHORT).show()
+            var g1 = tasarim.giriskullanici.text.toString().trim()
+            var g2 = tasarim.girissifre.text.toString().trim()
+
+            if (g1 == "" || g2 == "") {
+                Toast.makeText(requireContext(), "Lütfen kullanıcı adı ve şifre giriniz!", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
             }
 
-            refKisiler.addValueEventListener(object :ValueEventListener{
+            refKisiler.addListenerForSingleValueEvent(object : ValueEventListener {
                 override fun onCancelled(error: DatabaseError) {
-
+                    // Hata durumunda burada işlemler yapabilirsiniz.
                 }
 
                 override fun onDataChange(ds: DataSnapshot) {
-                    for(p in ds.children){
+                    var kullaniciBulundu = false
 
-                        var kisi=p.getValue(KullaniciKayit::class.java)
-                        if(kisi!=null){
-                            var key=p.key
-                            if(g1==kisi.kullanici_adi.toString()&&g2==kisi.sifre.toString()){
-                                Navigation.findNavController(it).navigate(R.id.action_girisSayfasi_to_anamenu)
+                    for (p in ds.children) {
+                        var kisi = p.getValue(KullaniciKayit::class.java)
+                        if (kisi != null) {
+                            var key = p.key
+                            if (g1 == kisi.kullanici_adi.toString() && g2 == kisi.sifre.toString()) {
+                                kullaniciBulundu = true
+                                break
                             }
                         }
+                    }
+
+                    if (kullaniciBulundu) {
+                        Navigation.findNavController(it).navigate(R.id.action_girisSayfasi_to_anamenu)
+                    } else {
+                        Toast.makeText(requireContext(), "Kullanıcı adı veya şifre hatalı!", Toast.LENGTH_SHORT).show()
                     }
                 }
             })
 
-            if(sayi>2){
-                tasarim.uyari.visibility=View.VISIBLE
+            if (sayi > 2) {
+                tasarim.uyari.visibility = View.VISIBLE
             }
         }
 

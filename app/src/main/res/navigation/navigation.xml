@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_girisSayfasi_to_kayitSayfasi"
             app:destination="@id/kayitSayfasi" />
+        <action
+            android:id="@+id/action_girisSayfasi_to_ingilizceSohbet"
+            app:destination="@id/ingilizceSohbet" />
     </fragment>
     <fragment
         android:id="@+id/anamenu"
@@ -38,6 +41,9 @@
         <action
             android:id="@+id/action_anamenu_to_ingilizceSohbet"
             app:destination="@id/ingilizceSohbet" />
+        <action
+            android:id="@+id/action_anamenu_to_kelimeArenasiAnasayfa"
+            app:destination="@id/kelimeArenasiAnasayfa" />
     </fragment>
     <fragment
         android:id="@+id/kayitSayfasi"
@@ -248,4 +254,18 @@
         android:name="com.example.onlyenglish.IngilizceSohbet"
         android:label="fragment_ingilizce_sohbet"
         tools:layout="@layout/fragment_ingilizce_sohbet" />
+    <fragment
+        android:id="@+id/kelimeArenasiAnasayfa"
+        android:name="com.example.onlyenglish.KelimeArenasiAnasayfa"
+        android:label="fragment_kelime_arenasi_anasayfa"
+        tools:layout="@layout/fragment_kelime_arenasi_anasayfa" >
+        <action
+            android:id="@+id/action_kelimeArenasiAnasayfa_to_kelimeArenasiOyunEkrani"
+            app:destination="@id/kelimeArenasiOyunEkrani" />
+    </fragment>
+    <fragment
+        android:id="@+id/kelimeArenasiOyunEkrani"
+        android:name="com.example.onlyenglish.KelimeArenasiOyunEkrani"
+        android:label="fragment_kelime_arenasi_oyun_ekrani"
+        tools:layout="@layout/fragment_kelime_arenasi_oyun_ekrani" />
 </navigation>
