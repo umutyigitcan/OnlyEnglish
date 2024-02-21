@@ -8,10 +8,11 @@ import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.onlineenglish.R
-
+import com.google.firebase.database.FirebaseDatabase
 
 
 class RVAdaptermesaj(var mContext:Context,var mesajlar:List<Mesajdata>):RecyclerView.Adapter<RVAdaptermesaj.cardViewNesneleriniTutucu>() {
+
 
     inner class cardViewNesneleriniTutucu(view:View):RecyclerView.ViewHolder(view){
 
@@ -25,8 +26,10 @@ class RVAdaptermesaj(var mContext:Context,var mesajlar:List<Mesajdata>):Recycler
     }
 
     override fun onBindViewHolder(holder: cardViewNesneleriniTutucu, position: Int) {
-        var mesajlar=mesajlar[position]
-        holder.mesaj.text=mesajlar.mesaj
+        val currentMesaj = mesajlar[position]
+        holder.mesaj.text=currentMesaj.mesaj
+
+
 
     }
 

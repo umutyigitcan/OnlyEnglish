@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.onlineenglish.databinding.FragmentIngilizceSohbetBinding
@@ -26,13 +27,15 @@ class IngilizceSohbet : Fragment() {
     ): View? {
         tasarim = FragmentIngilizceSohbetBinding.inflate(inflater, container, false)
 
+
+
         val database = FirebaseDatabase.getInstance()
         val kisimesaj = database.getReference("diyalog")
 
         tasarim.rv.setHasFixedSize(true)
         val layoutManager =
             StaggeredGridLayoutManager(1, StaggeredGridLayoutManager.VERTICAL)
-        layoutManager.reverseLayout = false // En üstten başla
+        layoutManager.reverseLayout = false
         tasarim.rv.layoutManager = layoutManager
 
         mesajlar = ArrayList()
@@ -42,25 +45,35 @@ class IngilizceSohbet : Fragment() {
 
         kisimesaj.addValueEventListener(object : ValueEventListener {
             override fun onCancelled(error: DatabaseError) {
-                // İşlem iptal edildiğinde yapılacak işlemler
+
             }
 
             override fun onDataChange(ds: DataSnapshot) {
-                mesajlar.clear() // Her onDataChange çağrısında mevcut listeyi temizle
+                mesajlar.clear()
 
                 for (p in ds.children) {
-                    val getirilen = p.getValue(String::class.java)
-                    if (getirilen != null) {
+                    // getValue fonksiyonunu sadece çağırarak dinamik tip dönüşümü yapmasına izin verelim
+                    val getirilen = p.getValue()
+
+                    // Eğer veri bir String ise, Mesajdata oluşturup listeye ekleyelim
+                    if (getirilen is String) {
                         mesajlar.add(Mesajdata(getirilen))
+                    }
+                    // Eğer veri bir HashMap ise, HashMap'ten içeriği alarak Mesajdata oluşturup listeye ekleyelim
+                    else if (getirilen is HashMap<*, *>) {
+                        val icerik = getirilen["icerik"] as? String
+                        if (icerik != null) {
+                            mesajlar.add(Mesajdata(icerik))
+                        }
                     }
                 }
 
-                // Veri değişikliği durumunda adapter'ı güncelle
                 adapter.notifyDataSetChanged()
 
-                // RecyclerView'ı en alttan başlat
                 tasarim.rv.scrollToPosition(adapter.itemCount - 1)
             }
+
+
         })
 
         tasarim.gonder.setOnClickListener {
